@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+	background: linear-gradient(0.25turn, #CACFD2, #ebf8e1, #979A9A);
+	opacity: 0.8;
+	}
+
+h1{
+	color: grey;
+}
+
+section{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+	width: 90%;
+	background: linear-gradient(0.25turn, #CACFD2, #ebf8e1, #979A9A);
+}
+
+.td{
+	color:#229954; 
+	font-weight: bold;
+	transition: 0.30s;
+
+}
+
+tr{
+	transition: 0.30s;
+	padding: 2rem auto;
+	 
+}
+
+tr:hover{
+	opacity: 0.9;
+	transform: scale(1.01);
+	background-color: rgba(88, 214, 141, 0.5 );
+}
+
+tr:nth-child(2n+1) {
+    background: #FEF9E7  ;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: red;
+}
+
+.customer{
+	text-align: right;
+}
