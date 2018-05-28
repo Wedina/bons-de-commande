@@ -7,7 +7,7 @@ echo "page commande chargé";
 ?>
 
 <h1>Bons de commande</h1>
-<h3><a href="phtml.php">Back to the list</a></h3>
+<h3><a href="index.php">Back to the list</a></h3>
 
 <section>
 	<article class="customer">
@@ -27,11 +27,12 @@ echo "page commande chargé";
 					<td class="td">Prix unitaire</td>
 					<td class="td">Quantité</td>
 					<td class="td">Prix Total</td>
-				</tr>
-			
+				</tr>			
 				<tr>
-
 					
+					<td><?= $products['productName'] ?></td>
+
+
 					<td><?= $orderdetails['priceEach'] ?></td>
 					<td><?= $orderdetails['quantityOrdered'] ?></td>
 					<td><?= $orderdetails['orderLineNumber'] ?></td>

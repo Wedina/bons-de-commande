@@ -2,7 +2,7 @@
  include 'tools.php'; 
 
 
-$bdd = new PDO('mysql:host=localhost;dbname=classicmodels;charset=utf8', 'root', 'troiswa' );
+$bdd = new PDO('mysql:host=localhost;dbname=classicmodels;charset=utf8', 'root', 'root' );
 
 $sql = "SELECT orderNumber, orderDate, shippedDate, status FROM `orders` ORDER BY `orderDate` ASC";
 

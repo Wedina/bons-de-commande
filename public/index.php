@@ -1,10 +1,7 @@
 <?php 
 	  include '../view/header.phtml'; 
-	  include '../services/sql.php';
-	 		
+	  include '../services/sql.php';	 		
 ?>
-
-
 <h1>Bons de commande</h1>
 <section>
 		<article>
