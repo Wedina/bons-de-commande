@@ -1,0 +1,6 @@
+----> SELECT productline,COUNT(*) FROM `products`GROUP BY productline
+			Rquete Sql Count et group by 
+
+
+----> SELECT MSRP, productName FROM `products` ORDER by MSRP DESC LIMIT 10
+			Les 10 produits le plus cher et 
